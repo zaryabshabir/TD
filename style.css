@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Glory');
+#header{
+  
+}
+#title{
+  color:orange;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 4px 4px 1px white;
+}
+#header-img{
+width:424px;
+height: 636px;
+}
+#img{
+  margin-left: 94px;
+  margin-top: 90px;
+}
+#nav-bar{
+  width: 99%;
+  top: 0;
+  position: fixed;
+}
+.nav-link{
+  
+}
+li{
+  list-style:none;
+}
+a {
+  color: black;
+  text-decoration: none;
+   font-family:glory;
+  font-size:40px;
+  text-shadow:0.1px 1px 1px #001433;
+}
+ul {
+  width: 93vw;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+nav > li {
+    padding-bottom: 50px;
+  }
+#i-style{
+  animation-name: lt;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  display:inline-block;
+  font-size: larger;
+  font-style: italic;
+ color:cyan;
+}
+#i-head{
+  font-size:40px;
+  margin:10px 10px;
+ padding:20px;
+  align-items:;
+}
+#i-body{
+  font-size:20px;
+}
+body {
+  color:white;
+ background-image: linear-gradient(250deg, rgba(0,12,0,0.9), rgba(2, 5, 54, 0.466)),
+url(https://unsplash.com/photos/bkc-m0iZ4Sk/download?force=true);
+  
+  font-family:glory;
+ 
+}
+article{
+  color:black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+   background-color
+  :rgba(255,255,255,0.7);
+   border-radius:0.3rem;
+  border:1px solid black;
+}
+#box{
+  background-color:rgba(0,0,0,0.1);
+  box-shadow:1px 1px 1px 0.1px rgba(255,255,255,0.1);
+  border:2px solid black;
+ width:100%;
+  align-items:center;
+  text-align:center;
+  margin:40px;
+  border-radius:0.3rem;
+}
+#contact{
+  background-color:rgba(0,0,0,0.3);
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  border-radius:0.3rem;
+  border:1px solid white;
+}
+@media only screen and (max-width:800px){
+  #title{
+    text-shadow:2px 2px 1px white;
+    margin-top:-40px;
+    margin-left:66px;
+    font-size:25px;
+    text-align:start;
+  }
+ #header-img{
+   border:1px solid white;
+   border-radius:0.3rem;
+width:112px;
+height:208px;
+}
+  #img{
+    margin-left:27px;
+  }
+  #i4{
+    margin-left:-100px;
+    width:20%;
+  }
+  #pi2{
+  color:rgb(255, 255, 255);
+  text-shadow:1px 1px 5px rgb(0, 0, 0);
+  font-weight:bold;
+    font-size:20px;
+   margin-left:2%;
+}
+  a {
+    position:relative;
+  color: black;
+  text-decoration: none;
+   font-family:glory;
+  font-size:20px;
+  text-shadow:0.1px 1px 1px #001433;
+}
+ul {
+  margin-top:-1px;
+ width: 88vw;
+  display: flex;
+  flex-direction: row;
+  padding-bottom:10px;
+  padding-left:10px;
+  justify-content:space-between;
+}
+nav{
+    height:3vw;
+  }
+  #nav-bar{
+    padding-bottom:10px;
+  width: 95%;
+  top: 0;
+  position: fixed;
+}
+  #i-style{
+  animation-name: q;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  display:flex;
+  font-size: 10px;
+  font-style: italic;
+}
+  @keyframes q{
+    0%{
+      transform:translatex(300px);
+    }
+    100%{
+      transform:translatex(-330px);
+    }
+  }
+}
+nav{
+  background-color:rgba(255,255,255,0.5);
+  border:2px solid white;
+  border-radius:0.2rem;
+}
+#i2{
+  border-radius: 50%;
+  margin-top: 50px;
+  width:20%;
+}
+#i3{
+  border-radius: 50%;
+  margin-bottom: 50px;
+  width:20%;
+  margin-left:80%;
+}
+
+#pi2{
+  color:rgb(255, 255, 255);
+  text-shadow:1px 1px 5px rgb(0, 0, 0);
+  font-weight:bold;
+   margin-left:42%;
+}
+#i4{
+  border-radius: 0.4rem;
+  border:1px solid black;
+  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0);
+  margin-left: 386px;
+  width:50%;
+
+}
+#cap{
+  text-align: center;
+  font-size: 16px;
+}
+#mid{
+  border-radius:0.3rem;
+  border:1px solid white;
+  background-color
+  :rgba(0,0,0,0.8);
+}
+#video{
+  margin:80px 21%;
+  align-items:center;
+  width:60%;
+  height:50%;
+}
+
+#info{
+  font-size: 25px;
+  background-color
+  :rgba(10,30,0,0.4);
+   border-radius:0.3rem;
+  border:1px solid white;
+}
+#specs{
+  border-radius:0.3rem;
+  border:1px solid white;
+  background-color
+  :rgba(100,130,0,0.3);
+}
+
+iframe{
+  margin-left: 390px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius:0.3rem;
+  box-shadow:1px 1px 1px 1px black;
+  border:1px solid white;
+}
+h2{
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  color:#ffffff;
+  font-size: 40px;
+}
+
+
+#i2{
+  animation-name: lt;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: 10px;
+  border: 2px solid white;            
+  width: 40%;
+  height: 40%;
+  border-radius: 40%;
+background-color: brown;
+}
+#i3{
+  animation-name: rt;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin:10px;
+  border: 2px solid white;
+  width: 40%;
+  height: 40%;
+  border-radius: 20%;
+background-color: cornflowerblue;
+}
+#ft{
+  font-size: medium;
+  color: white;
+}
+
+
+@keyframes lt{
+  0%{
+      
+      transform:translateX(800px);
+  }
+  100%{
+      transform:translatex(20px);
+  }
+}
+@keyframes rt{
+  0%{
+      transform:translateX(20px);
+  }
+  100%{
+      transform:translatex(800px);
+  }
+}
